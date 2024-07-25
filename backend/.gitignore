@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# If your virtualenv folder is within your project directory:
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# Env files
+*.env
+
+# Ignore static and media directories if they are generated during runtime
+/static/
+/media/
+
+# Ignore local settings
+local_settings.py
+
+# Node modules
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+
+# Ignore built distributions
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+pip-wheel-metadata/
+wheels/
+
+# Ignore translations
+*.mo
+
+# Ignore logs and temp files
+*.log
+*.pot
+*.pid
+*.gz
+*.out
+*.bak
+*.swp
+*.swo
+
+# Ignore Celery beat schedule file
+celerybeat-schedule
