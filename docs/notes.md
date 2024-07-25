@@ -1,0 +1,11 @@
+- requirements.txt fora da pasta backend
+- erro no gitignore, não ignora a pasta venv corretamente
+- readme não mostra qual a pagina inicial. index deveria redirectionar para dashboard
+- não é explicado o uso das variáveis do .env para o backend
+- falta tratamento de erro para email não encontrado
+- falta documeexplicação sobre dotenv do front
+- falta polimento no layout
+- falta tratamento de erro
+- ux ruim
+- dados da carteira não atualizam em tempo real
+- layout do filtro quebrando
