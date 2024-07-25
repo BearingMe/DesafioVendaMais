@@ -25,13 +25,13 @@ pip install -r requirements.txt
 Crie um arquivo `.env` com suas configurações. Basta seguir o exemplo fornecido no arquivo `.env.example`.
 
 ```txt
-DEBUG=Bool
 SECRET_KEY=String
-EMAIL_HOST_USER=String
-EMAIL_HOST_PASSWORD=String
 ```
 
-> O arquivo de exemplo contém mais detalhes
+Crie um super usuário para fazer o login
+```sh
+python manage.py createsuperuser
+```
 
 Rode as migrações
 ```sh
@@ -43,4 +43,25 @@ python manage.py migrate
 Inicie o servidor
 ```
 python manage.py runserver
+```
+
+### Configuração do Frontend
+
+Entre na pasta `frontend`
+```sh
+cd DesafioVendaMais/frontend
+```
+
+Instale as dependencias utilizando o `npm`
+
+```sh
+npm i
+```
+
+> O projeto foi desenvolvido em torno do npm, caso queira utilizar outros gerenciadores de pacotes recomenda-se adicionar os "locks" ao gitignore
+
+Inicie o servidor
+
+```sh
+npm run dev
 ```
